@@ -21,13 +21,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.overblock.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: overblock
 github_username:  overblock
-
+segment_analytics: VwY5GjJUlhVHbYuWaR2iStUaziqDJ3O9
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-seo
+minima:
 
 
 
