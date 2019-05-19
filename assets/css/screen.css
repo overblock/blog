@@ -305,7 +305,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    /*font-family: Righteous;*/
 }
 
 .mainheading h1.posttitle {
@@ -561,6 +561,10 @@ ul.tags li a:hover {
     padding: 14px 0;
     z-index: 1;
     display: none;
+}
+
+.alertbar .logo {
+    width: 150px; !important;
 }
 
 .alertbar form {
