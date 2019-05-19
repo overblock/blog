@@ -2,11 +2,10 @@
 name: "Buy Bitcoin in Seconds and Instant Bitcoin Exchange."
 title: "Overblock"
 description: ""
-logo: 'assets/images/logos/logo.svg'
-favicon: 'assets/images/logos/favicon.ico'
+logo: 'blog/assets/images/logos/logo.svg'
+favicon: 'blog/assets/images/logos/favicon.ico'
 baseurl: ''
 otc_url: 'https://overblock.io'
-exchange_url: 'https://overblock.io'
 segment_analytics: 'VwY5GjJUlhVHbYuWaR2iStUaziqDJ3O9'
 disqus: ''
 mailchimp-list: 'https://overblock.us20.list-manage.com/subscribe/post?u=323fbdc123af3c6269263c126&id=c5dbd760b4'
@@ -27,11 +26,10 @@ authors:
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -42,7 +40,7 @@ jekyll-archives:
     
 # Pagination 
 paginate: 10
-paginate_path: /page:num/
+paginate_path: '/blog/page:num/'
     
 # Other
 markdown: kramdown
